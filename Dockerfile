@@ -30,6 +30,8 @@ COPY  wp-config.php /var/www/html/wordpress/
 COPY  nginx.conf  /etc/supervisor/conf.d/
 COPY  fpm.conf  /etc/supervisor/conf.d/
 COPY  php.ini /etc/php/7.2/cli/
+COPY  mysql.conf  /etc/supervisor/conf.d/ 
+
 
 #Configuring Supervisor
 
